@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Sql Server Connector for UiPath
 
 In this package, there are 3 activities:
