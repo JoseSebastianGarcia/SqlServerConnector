@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sql Server Connector", "Sql Server Connector\Sql Server Connector.csproj", "{7323B603-D5C5-4EF4-9EAF-8B578256BA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingConsole", "TestingConsole\TestingConsole.csproj", "{DF8D2A6D-61AB-4DB2-8911-01726802A7D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7323B603-D5C5-4EF4-9EAF-8B578256BA53} = {7323B603-D5C5-4EF4-9EAF-8B578256BA53}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{13C4D261-123B-4643-91E7-D82CDAEB1B49}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7323B603-D5C5-4EF4-9EAF-8B578256BA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7323B603-D5C5-4EF4-9EAF-8B578256BA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7323B603-D5C5-4EF4-9EAF-8B578256BA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7323B603-D5C5-4EF4-9EAF-8B578256BA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8D2A6D-61AB-4DB2-8911-01726802A7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8D2A6D-61AB-4DB2-8911-01726802A7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8D2A6D-61AB-4DB2-8911-01726802A7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8D2A6D-61AB-4DB2-8911-01726802A7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3296FF2-4842-441A-8E6C-69B5F927FCA3}
+	EndGlobalSection
+EndGlobal
